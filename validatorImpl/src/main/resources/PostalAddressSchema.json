@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Address",
+  "description": "A Finnish address schema",
+  "type": "object",
+
+  "properties": {
+    "street": {
+      "description": "Street name and number, eg. Aleksanterinkatu 52",
+      "type": "string"
+    },
+
+    "postalcode": {
+      "description": "The post office code, eg. 00100",
+      "type": "string"
+    },
+
+    "city": {
+      "description": "City, eg. Helsinki",
+      "type": "string"
+    }
+  },
+
+  "required": ["street", "postalcode", "city"]
+}
