@@ -20,6 +20,5 @@
       "type": "string"
     }
   },
-
   "required": ["street", "postalcode", "city"]
 }
